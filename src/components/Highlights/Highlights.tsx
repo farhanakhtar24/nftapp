@@ -6,8 +6,8 @@ import HighlightCard from "./HighlightCard";
 import ENSPhoto from "../../../public/highlightImages/ENS photo svg.svg";
 import BestFlip from "../../../public/highlightImages/Best Flip.svg";
 // import FirstNFTBought from "../../../public/highlightImages/First NFT Bought.svg";
-// import PaperHanded from "../../../public/highlightImages/Paper Handed.svg";
-// import ShouldHaveSold from "../../../public/highlightImages/Should Have Sold.svg";
+import PaperHanded from "../../../public/highlightImages/Paper Handed.svg";
+import ShouldHaveSold from "../../../public/highlightImages/Should Have Sold.svg";
 
 // Define the type for the props
 type Props = {};
@@ -38,18 +38,18 @@ const cardDetails = [
 		XP: 150,
 		shadowColor: "hover:shadow-[#F8A910]",
 	},
-	// {
-	// 	nftImage: ShouldHaveSold,
-	// 	cardShadowGradient: "bg-[#0BF1AD]/10",
-	// 	nftTitle: "Should Have Sold fmfdsk",
-	// 	nftSubtitleColor: "text-[#44FFC8]",
-	// 	marketStatus: "Mint",
-	// 	creatorHashtag: "Rare Apepe #6974",
-	// 	ethVal: 98.5,
-	// 	postedDate: "10 days ago",
-	// 	XP: 200,
-	// 	shadowColor: "hover:shadow-[#0BF1AD]",
-	// },
+	{
+		nftImage: ShouldHaveSold,
+		cardShadowGradient: "bg-[#0BF1AD]/10",
+		nftTitle: "Should Have Sold fmfdsk",
+		nftSubtitleColor: "text-[#44FFC8]",
+		marketStatus: "Mint",
+		creatorHashtag: "Rare Apepe #6974",
+		ethVal: 98.5,
+		postedDate: "10 days ago",
+		XP: 200,
+		shadowColor: "hover:shadow-[#0BF1AD]",
+	},
 	// {
 	// 	nftImage: FirstNFTBought,
 	// 	cardShadowGradient: "bg-[#25B5D5]/10",
@@ -62,18 +62,18 @@ const cardDetails = [
 	// 	XP: 10,
 	// 	shadowColor: "hover:shadow-[#25B5D5]",
 	// },
-	// {
-	// 	nftImage: PaperHanded,
-	// 	cardShadowGradient: "bg-[#0BF1AD]/10",
-	// 	nftTitle: "Paper Handed",
-	// 	nftSubtitleColor: "text-[#44FFC8]",
-	// 	marketStatus: "Sold",
-	// 	creatorHashtag: "Moonbird #7866",
-	// 	ethVal: 98.5,
-	// 	postedDate: "10 days ago",
-	// 	XP: 200,
-	// 	shadowColor: "hover:shadow-[#0BF1AD]",
-	// },
+	{
+		nftImage: PaperHanded,
+		cardShadowGradient: "bg-[#0BF1AD]/10",
+		nftTitle: "Paper Handed",
+		nftSubtitleColor: "text-[#44FFC8]",
+		marketStatus: "Sold",
+		creatorHashtag: "Moonbird #7866",
+		ethVal: 98.5,
+		postedDate: "10 days ago",
+		XP: 200,
+		shadowColor: "hover:shadow-[#0BF1AD]",
+	},
 ];
 
 // Define the Highlights component

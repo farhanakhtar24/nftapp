@@ -4,10 +4,10 @@ import HighlightCard from "./HighlightCard";
 
 // Import the images used for the highlight cards
 import ENSPhoto from "../../../public/highlightImages/ENS photo svg.svg";
-import BestFlip from "../../../public/assets/highlightImages/Best Flip.svg";
-import FirstNFTBought from "../../../public/assets/highlightImages/First NFT Bought.svg";
-import PaperHanded from "../../../public/assets/highlightImages/Paper Handed.svg";
-import ShouldHaveSold from "../../../public/assets/highlightImages/Should Have Sold.svg";
+import BestFlip from "../../../public/highlightImages/Best Flip.svg";
+import FirstNFTBought from "../../../public/highlightImages/First NFT Bought.svg";
+import PaperHanded from "../../../public/highlightImages/Paper Handed.svg";
+import ShouldHaveSold from "../../../public/highlightImages/Should Have Sold.svg";
 
 // Define the type for the props
 type Props = {};

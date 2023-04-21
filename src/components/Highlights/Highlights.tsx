@@ -3,11 +3,11 @@ import React from "react";
 import HighlightCard from "./HighlightCard";
 
 // Import the images used for the highlight cards
-import ENSPhoto from "../../assets/highlightImages/ENS Photo svg.svg";
-import BestFlip from "../../assets/highlightImages/Best Flip.svg";
-import FirstNFTBought from "../../assets/highlightImages/First NFT Bought.svg";
-import PaperHanded from "../../assets/highlightImages/Paper Handed.svg";
-import ShouldHaveSold from "../../assets/highlightImages/Should Have Sold.svg";
+import ENSPhoto from "../../../public/highlightImages/ENS photo svg.svg";
+import BestFlip from "../../../public/assets/highlightImages/Best Flip.svg";
+import FirstNFTBought from "../../../public/assets/highlightImages/First NFT Bought.svg";
+import PaperHanded from "../../../public/assets/highlightImages/Paper Handed.svg";
+import ShouldHaveSold from "../../../public/assets/highlightImages/Should Have Sold.svg";
 
 // Define the type for the props
 type Props = {};

@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 
 import ProfileImage from "../../assets/Rectangle 18.svg";
-import Eclipse from "../../assets/Ellipse 206.svg";
 
 // Define the props for the ProfileHeader component
 type Props = {};

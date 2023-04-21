@@ -5,7 +5,7 @@ import HighlightCard from "./HighlightCard";
 // Import the images used for the highlight cards
 import ENSPhoto from "../../../public/highlightImages/ENS photo svg.svg";
 import BestFlip from "../../../public/highlightImages/Best Flip.svg";
-// import FirstNFTBought from "../../../public/highlightImages/First NFT Bought.svg";
+import FirstNFTBought from "../../../public/highlightImages/First NFT bought.svg";
 import PaperHanded from "../../../public/highlightImages/Paper Handed.svg";
 import ShouldHaveSold from "../../../public/highlightImages/Should Have Sold.svg";
 
@@ -50,18 +50,18 @@ const cardDetails = [
 		XP: 200,
 		shadowColor: "hover:shadow-[#0BF1AD]",
 	},
-	// {
-	// 	nftImage: FirstNFTBought,
-	// 	cardShadowGradient: "bg-[#25B5D5]/10",
-	// 	nftTitle: "First NFT Bought",
-	// 	nftSubtitleColor: "text-[#4BDFFF]",
-	// 	marketStatus: "Bought",
-	// 	creatorHashtag: "BAYC #7925",
-	// 	ethVal: 98.5,
-	// 	postedDate: "10 days ago",
-	// 	XP: 10,
-	// 	shadowColor: "hover:shadow-[#25B5D5]",
-	// },
+	{
+		nftImage: FirstNFTBought,
+		cardShadowGradient: "bg-[#25B5D5]/10",
+		nftTitle: "First NFT Bought",
+		nftSubtitleColor: "text-[#4BDFFF]",
+		marketStatus: "Bought",
+		creatorHashtag: "BAYC #7925",
+		ethVal: 98.5,
+		postedDate: "10 days ago",
+		XP: 10,
+		shadowColor: "hover:shadow-[#25B5D5]",
+	},
 	{
 		nftImage: PaperHanded,
 		cardShadowGradient: "bg-[#0BF1AD]/10",

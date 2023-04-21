@@ -14,6 +14,7 @@ type Props = {
 	ethVal: number; // Ethereum value of the NFT
 	postedDate: string; // Date when the NFT was posted
 	XP: number; // XP points earned
+	shadowColor: string; // CSS color string for card shadow effect
 };
 
 // Defining HighlightCard component with destructured Props as parameter
@@ -27,10 +28,13 @@ const HighlightCard = ({
 	ethVal,
 	postedDate,
 	XP,
+	shadowColor,
 }: Props) => {
 	return (
 		// Card container with custom styling
-		<div className="w-[201px] h-[148px] bg-[#111111] p-[10px] rounded-[16px] flex flex-col gap-6 overflow-hidden">
+		<div
+			className={`group w-[201px] h-[148px] bg-[#111111] p-[10px] rounded-[16px] flex flex-col gap-6 overflow-hidden
+		hover:shadow-2xl ${shadowColor} transition-all cursor-pointer duration-500`}>
 			<div className="flex gap-3 relative">
 				{/* Shadow effect for NFT image */}
 				<div

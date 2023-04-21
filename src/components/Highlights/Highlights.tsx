@@ -24,6 +24,7 @@ const cardDetails = [
 		ethVal: 1.82,
 		postedDate: "2 months ago",
 		XP: 200,
+		shadowColor: "hover:shadow-[#25B5D5]",
 	},
 	{
 		nftImage: BestFlip,
@@ -35,6 +36,7 @@ const cardDetails = [
 		ethVal: 98.5,
 		postedDate: "10 days ago",
 		XP: 150,
+		shadowColor: "hover:shadow-[#F8A910]",
 	},
 	{
 		nftImage: ShouldHaveSold,
@@ -46,6 +48,7 @@ const cardDetails = [
 		ethVal: 98.5,
 		postedDate: "10 days ago",
 		XP: 200,
+		shadowColor: "hover:shadow-[#0BF1AD]",
 	},
 	{
 		nftImage: FirstNFTBought,
@@ -57,6 +60,7 @@ const cardDetails = [
 		ethVal: 98.5,
 		postedDate: "10 days ago",
 		XP: 10,
+		shadowColor: "hover:shadow-[#25B5D5]",
 	},
 	{
 		nftImage: PaperHanded,
@@ -68,6 +72,7 @@ const cardDetails = [
 		ethVal: 98.5,
 		postedDate: "10 days ago",
 		XP: 200,
+		shadowColor: "hover:shadow-[#0BF1AD]",
 	},
 ];
 
@@ -89,6 +94,7 @@ const Highlights = (props: Props) => {
 					ethVal={cardDetail.ethVal}
 					postedDate={cardDetail.postedDate}
 					XP={cardDetail.XP}
+					shadowColor={cardDetail.shadowColor}
 				/>
 			))}
 		</div>

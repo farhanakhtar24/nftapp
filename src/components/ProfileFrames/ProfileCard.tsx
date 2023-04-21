@@ -22,16 +22,18 @@ const ProfileCard = ({
 }: Props) => {
 	return (
 		// Card container with custom styling
-		<div className="w-[201px] h-[305px] rounded-lg px-1 pt-1 pb-2 bg-[#111111] flex flex-col gap-4">
+		<div
+			className="w-[201px] h-[305px] rounded-lg px-1 pt-1 pb-2 bg-[#111111] flex flex-col gap-4 group cursor-pointer
+		hover:shadow-2xl transition-all duration-300">
 			{/* User profile image with purchase date */}
-			<div className="w-[193px] h-[193px] rounded-[4px] relative">
+			<div className="w-[193px] h-[193px] rounded-[4px] relative overflow-hidden">
 				{/* Displaying profile image using Next.js Image component */}
 				<Image
 					src={profileImage}
 					alt="profileImage"
 					width={999}
 					height={999}
-					className="z-0"
+					className="z-0 hover:scale-105 transition-all duration-300"
 				/>
 				{/* Displaying purchased date */}
 				<div

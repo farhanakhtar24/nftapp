@@ -7,7 +7,9 @@ module.exports = {
 	],
 	theme: {
 		extend: {
-			backgroundImage: {},
+			backgroundImage: {
+				eclipse: "url(../../src/assets/Ellipse 206.svg)",
+			},
 			colors: {
 				bgColor: "#1E1E1E",
 			},

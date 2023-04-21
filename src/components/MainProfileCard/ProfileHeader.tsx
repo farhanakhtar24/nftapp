@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 import ProfileImage from "../../assets/Rectangle 18.svg";
+import Eclipse from "../../assets/Ellipse 206.svg";
 
 // Define the props for the ProfileHeader component
 type Props = {};
@@ -14,14 +15,7 @@ const ProfileHeader = (props: Props) => {
 			{/* Render the profile image and progress */}
 			<div className="flex flex-col gap-1 items-center">
 				{/* Render the radial progress component */}
-				<div
-					className="radial-progress rotate-180"
-					style={{
-						"--thickness": "4px",
-						"--value": "75",
-						"--size": "84px",
-						color: "#FFC148",
-					}}>
+				<div className="w-[84px] h-[84px] bg-eclipse bg-no-repeat">
 					{/* Render the profile image using the Next.js Image component */}
 					<div className="p-2">
 						<Image
@@ -29,7 +23,7 @@ const ProfileHeader = (props: Props) => {
 							alt="Profile Image"
 							width={999}
 							height={999}
-							className="rounded-full rotate-180"
+							className="rounded-full"
 						/>
 					</div>
 				</div>

@@ -5,7 +5,7 @@ import EthereumLogo from "../../assets/ethLogo.svg";
 
 // Defining Props type interface
 type Props = {
-	nftImage: StaticImageData; // Static image data for the NFT image
+	nftImage: string; // Static image data for the NFT image
 	cardShadowGradient: string; // CSS gradient string for card shadow effect
 	nftTitle: string; // Title of the NFT
 	nftSubtitleColor: string; // CSS color string for subtitle text color
